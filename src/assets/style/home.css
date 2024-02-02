@@ -1,0 +1,9 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid > * {
+  flex: 0 0 calc(33.33% - 20px); /* 33.33% width with 20px spacing */
+  margin: 10px; /* Adjust spacing as needed */
+}
